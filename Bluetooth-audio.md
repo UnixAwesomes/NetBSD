@@ -17,7 +17,7 @@ Start the bluetooth service.
 
 To start searching for devices, type the command
 
-`btconfig ubt0 inquiry'
+`btconfig ubt0 inquiry`
 
 After that you should see your device in the list The device ID should look something like this
 `1: bdaddr XX:YY:ZZ:XX:YY:ZZ`.
@@ -40,4 +40,4 @@ Then run the `audiocfg list` command, and find Bluetooth audio in the list
 
 Select Bluetooth Audio by default with the command
 
-'audiocfg default ID'
+`audiocfg default ID`
